@@ -1,0 +1,52 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Publish results
+publish/
+
+packages
+
+# Visual Studio 2015
+.vs/
+out
+
+#rider
+/.idea/*
+
+coverage.cobertura.xml
+_CoverageReport
+.fake
+.ionide
+_out
+_helms
+.template.config
+
+# .NET Core
+**/Properties/launchSettings.json
